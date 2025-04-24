@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A Guide to BVR Combat in the F-14</title>
+    <link rel="stylesheet" type="text/css" href="/styles/site.css">
+</head>
+
+<body>
+    <header>
+        <h2>F-14 Combat Operation</h2>
+    </header>
+
+    <nav id="Nav_Wide">
+        <menu class="flexcontainer">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="offensive_systems.html">Offensive Systems</a></li>
+            <li><a href="defensive_systems.html">Defensive Systems</a></li>
+        </menu>
+    </nav>
+
+    <img src="./images/Menu.jpg" alt="" id="Menu" class="menu hidden">
+    <!--Original Content-->
+    <menu class="dropdown">
+        <li class="hidden" id="One_Link_Narrow"><a href="index.html">Home</a></li>
+        <li class="hidden" id="Two_Link_Narrow"><a href="offensive_systems.html">Offensive Systems</a></li>
+        <li class="hidden" id="Three_Link_Narrow"><a href="defensive_systems.html">Defensive Systems</a></li>
+    </menu>
+
+    <section id="Radar">
+        <h4>Jester, and available radar modes for the AWG-9</h4>
+
+        <p>Ahhh, Jester. Every DCS F-14 pilot has a love-hate relationship with Jester. From randomly ejecting from your aircraft, to insulting every carrier landing you do. He's a pain in the butt, but VERY good at what he does. The Jester menu allows you to access the AWG-9. This allows you to do the most important things. Lock targets, and change the radar mode (TWS Auto or TWS Manual is most commonly used). If you need to do an action with the radar, you'll always need to open the Jester menu to do it.</p><!--Original Content-->
+    </section>
+
+    <section id="BVR">
+        <h4>Basic BVR theory and procedure</h4>
+
+        <p>BVR in the F-14 is actually fairly straightforward, and exploits the few advantages the F-14 has over opposing aircraft. Most aircraft have a radar range of approximately 60-65 miles. The f-14, having an analog radar, can pick up targets much further, typically around 80 miles. The theory as a result is simple.</p><!--Original Content-->
+
+        <ol>
+            <li>Swap your radar to TWS through Jester.</li>
+            <li>At approxiately 70 miles, launch an Aim-54.</li>
+            <li>Turn left or right to drag the target to the edge of your radar limit so that you are not flying straight at the target. (This buys your missile time, and can be used to decieve the enemy aircraft into believing that you don't see them, which may make them assume you haven't shot a missile at them)</li>
+            <li>At 35 miles your missile should be going active. Turn around, light your afterburners, and run away. If the missile hits, great! If not, extend away, and once you have at least 90 miles of seperation again, turn back in.</li>
+            <li>Repeat from the start!</li>
+        </ol><!--Original Content-->
+    </section>
+
+    <section id="WVR" class="Covered">
+        <h4>Defensive Tactics</h4>
+
+        <p>If you have messed up, and somehow there is a missile coming at you, you have 2 options. If the attacking aircraft is more than 10 miles away, just turn around and run away. Past 10 miles, no missile has enough energy to catch you, as long as you descend down to sea level, where the air is thicker. If they are closer than 10 miles, you have only one option, Notching. To notch, turn your aircraft perpendicular to the incoming missile. The theory is, you will be approaching the missile at the same speed the missile is moving relative to the ground, so you will be filtered out as part of the ground by the missile seeker. As such, you must be AS CLOSE to perpendicular as possible. This is a precision maneuver, and requires a lot of practice to be able to be done under stress.</p><!--Original Content-->
+
+        <img src="./images/click_me.png" alt="" id="Interaction_Button" class="opener">
+        <!--Original Content-->
+
+        <section id="Popup" class="popup hidden">
+            <img src="./images/close.jpg" alt="" id="Closing_Button" class="closer">
+            <!--Original Content-->
+
+            <h4>Notching Diagram</h4>
+            <img src="./images/popup_content.png" alt="Fly Perpendicular to oncoming aircraft to notch">
+            <!--Original Content-->
+        </section>
+
+    </section>
+
+    <section>
+        <h4>Within Visual Range Combat</h4>
+
+        <p>If you somehow ended up within visual range with an enemy aircraft, you messed up pretty bad. However, you have a few tools to help save you. Firstly is PAL (pilot automatic lock on) This allows you to lock whatever target you point your nose at when you press the PAL button. This bypasses Jester, making it a faster way of locking targets at close range. Secondly there is the ACM switch. The ACM switch will make it so any Aim-54 launched will automatically be active (be guiding on its own radar) when launched, allowing you to shoot, then defend without needing to provide guidance to the missile. the ACM switch also shortens the missile launch delay from 3 seconds to 1 second. Other than those tools, the F-14 is not really designed for within visual range combat. Use your knowledge of your aircraft to try and escape, that should be your primary goal.</p><!--Original Content-->
+    </section>
+
+    <section>
+        <picture>
+            <!--Source: Thumbnail of the following video: https://www.youtube.com/watch?v=1SvxRzQzG6M-->
+            <img src="./images/home_image.jpg" alt="Picture of F-14 launching missiles">
+        </picture>
+
+        <a href="https://www.youtube.com/watch?v=1SvxRzQzG6M">Image Source</a>
+
+        <p>With this new knowledge, now this will be you!</p>
+    </section>
+
+    <footer>
+        <h4>Additional Resources</h4>
+
+        <ul>
+            <li><a href="https://chucksguides.com/aircraft/dcs/f-14b/">An amazing resource for extra information is chucksguides. Be sure to check it out!</a></li>
+
+            <li><a href="https://forum.dcs.world/forum/258-dcs-f-14a-amp-b/">For more in depth conversation about the DCS F-14, check out the heatblur forums!</a></li>
+        </ul>
+    </footer>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+
+    <script src="scripts/interactivity.js"></script>
+</body>
+
+</html>
